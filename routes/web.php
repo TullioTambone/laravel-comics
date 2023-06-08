@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-
+    $title = 'pagina Home';
     $comicsArray = config('comics.arrayFumetti');
 
-    return view('welcome');
-});
+    return view('home', compact('title', 'comicsArray'));
+})->name('home');
