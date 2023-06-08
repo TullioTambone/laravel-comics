@@ -1,0 +1,21 @@
+header{
+    .navbar{
+        .container-fluid{
+            .navbar-collapse{
+                ul{
+                    li{
+                        a{
+                            font-weight: bold;
+                            letter-spacing: 0.05px;
+                            &:hover{
+                                color: #0282f9;
+                                border-bottom:1px solid #0282f9;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
