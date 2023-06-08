@@ -1,6 +1,24 @@
 <header>
     <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
+        <div class="container">
+            <div class="banner-blue text-white text-end">
+                <div class="container">
+                    <span>DC POWER VISA &REG;</span>
+                    <span class="dropdown">
+                        <span class="dropdown-toggle ms-4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            ADDITIONAL DC SITES
+                        </span>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
+
+
+
             <a class="navbar-brand" href="#">
                 <img src="/images/dc-logo.png" alt="">
             </a>
@@ -8,7 +26,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav me-5">
                     <li class="nav-item">
                         <a class="nav-link" href="#">CHARACTERS</a>
                     </li>
@@ -47,6 +65,10 @@
                         </ul>
                     </li>
                 </ul>
+                <form action="" method="">
+                    <input type="text" placeholder="Search" class="text-end">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
             </div>
         </div>
     </nav>
