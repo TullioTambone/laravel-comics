@@ -62,20 +62,19 @@
     
     </div>
   <div class="footer-social">
-    <div class="footer down container">
-      <button>SING-UP NOW!</button>
-      <div class="social">
-        <h4>FOLLOW US</h4>
-        <ul>
-          <li><a href="#"><img src="../src/img/footer-facebook.png" alt=""></a></li>
-          <li><a href="#"><img src="../src/img/footer-twitter.png" alt=""></a></li>
-          <li><a href="#"><img src="../src/img/footer-youtube.png" alt=""></a></li>
-          <li><a href="#"><img src="../src/img/footer-pinterest.png" alt=""></a></li>
-          <li><a href="#"><img src="../src/img/footer-periscope.png" alt=""></a></li>
-        </ul>
-      </div>
+    <div class="footer-down container">
+        <button>SING-UP NOW!</button>
 
-
+        <div class="social">
+            <h4>FOLLOW US</h4>
+            <ul>
+                <li><a href="#"><img src="/images/footer-facebook.png" alt=""></a></li>
+                <li><a href="#"><img src="/images/footer-twitter.png" alt=""></a></li>
+                <li><a href="#"><img src="/images/footer-youtube.png" alt=""></a></li>
+                <li><a href="#"><img src="/images/footer-pinterest.png" alt=""></a></li>
+                <li><a href="#"><img src="/images/footer-periscope.png" alt=""></a></li>
+            </ul>
+        </div>
     </div>
   </div>
   </footer>
