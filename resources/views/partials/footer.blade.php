@@ -1,8 +1,8 @@
 <footer>
     <div class="container position-relative">
-        <div class="footer-up">
-            <div class="link-list">
-                <div class="col">
+        <div class="footer-up p-5">
+            <div class="link-list row">
+                <div class="my-col col-12 col-md-4 col-lg-4">
                     <div class="my-list">
                         <h2>DC COMICS</h2>
                         <ul>
@@ -23,7 +23,7 @@
                         </ul>       
                     </div>
                 </div>
-                <div class="col">
+                <div class="my-col col-12 col-md-4 col-lg-4">
                     <div class="my-list">
                         <h2>DC</h2>
                         <ul>
@@ -41,7 +41,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col">
+                <div class="my-col col-12 col-md-4 col-lg-4">
                     <div class="my-list">
                         <h2>SITES</h2>
                         <ul>
@@ -57,24 +57,24 @@
             </div>
         </div>
         <div class="image">
-            <img src="/images/dc-logo-bg.png" alt="">
+            <img src="{{ Vite::asset('resources/images/dc-logo-bg.png') }}" alt="">
         </div>
     
     </div>
-  <div class="footer-social">
-    <div class="footer-down container">
-        <button>SING-UP NOW!</button>
+    <div class="footer-social">
+        <div class="footer-down container">
+            <button>SING-UP NOW!</button>
 
-        <div class="social">
-            <h4>FOLLOW US</h4>
-            <ul>
-                <li><a href="#"><img src="/images/footer-facebook.png" alt=""></a></li>
-                <li><a href="#"><img src="/images/footer-twitter.png" alt=""></a></li>
-                <li><a href="#"><img src="/images/footer-youtube.png" alt=""></a></li>
-                <li><a href="#"><img src="/images/footer-pinterest.png" alt=""></a></li>
-                <li><a href="#"><img src="/images/footer-periscope.png" alt=""></a></li>
-            </ul>
+            <div class="social">
+                <h4>FOLLOW US</h4>
+                <ul>
+                    <li><a href="#"><img src="/images/footer-facebook.png" alt=""></a></li>
+                    <li><a href="#"><img src="/images/footer-twitter.png" alt=""></a></li>
+                    <li><a href="#"><img src="/images/footer-youtube.png" alt=""></a></li>
+                    <li><a href="#"><img src="/images/footer-pinterest.png" alt=""></a></li>
+                    <li><a href="#"><img src="/images/footer-periscope.png" alt=""></a></li>
+                </ul>
+            </div>
         </div>
     </div>
-  </div>
-  </footer>
+</footer>

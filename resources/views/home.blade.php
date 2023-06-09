@@ -14,11 +14,11 @@
             CURRENT SERIES
         </span>
 
-        <div class="row">
+        <div class="row d-flex justify-content-center align-items-center">
             @foreach( $comicsArray as $elem )
-            <div class="my-card col-12 col-md-2 col-lg-2">
+            <div class="my-card col-12 col-md-4 col-lg-2">
                 <img src="{{$elem['thumb']}}" alt="">
-                <h6>{{$elem['series']}}</h6>
+                <h6 class="mt-1">{{$elem['series']}}</h6>
             </div>
             @endforeach
         </div>
@@ -27,25 +27,25 @@
     <div class="container-fluid" id="buy">
         <div class="container p-4" id="buy-section">
             <div class="row text-white justify-content-center">
-                <div class="col-12 col-md-2 col-lg-2 buy-element">
-                    <img src="/images/buy-comics-digital-comics.png" style="width: 40px;" alt="">
-                    DIGITAL COMICS
+                <div class="col-12 col-md-12 col-lg-2 buy-element">
+                    <img src="/images/buy-comics-digital-comics.png" alt="">
+                    <span>DIGITAL COMICS</span>
                 </div>
-                <div class="col-12 col-md-2 col-lg-2 buy-element">
+                <div class="col-12 col-md-12 col-lg-2 buy-element">
                     <img src="/images/buy-comics-merchandise.png" alt="">
-                    DC MERCHANDISE
+                    <span>DC MERCHANDISE</span>
                 </div>
-                <div class="col-12 col-md-2 col-lg-2 buy-element">
+                <div class="col-12 col-md-12 col-lg-2 buy-element">
                     <img src="/images/buy-comics-subscriptions.png" alt="">
-                    SUBSCRIPION
+                     <span>SUBSCRIPION</span>
                 </div>
-                <div class="col-12 col-md-2 col-lg-2 buy-element">
-                    <img src="/images/buy-comics-shop-locator.png" style="width: 40px;" alt="">
-                    COMIC SHOP LOCATOR
+                <div class="col-12 col-md-12 col-lg-2 buy-element">
+                    <img src="/images/buy-comics-shop-locator.png" alt="">
+                     <span>COMIC SHOP LOCATOR</span>
                 </div>
-                <div class="col-12 col-md-2 col-lg-2 buy-element">
+                <div class="col-12 col-md-12 col-lg-2 buy-element">
                     <img src="/images/buy-dc-power-visa.svg" alt="">
-                    DC POWER VISA
+                     <span>DC POWER VISA</span>
                 </div>
             </div>
         </div>

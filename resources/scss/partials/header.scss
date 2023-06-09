@@ -4,7 +4,7 @@ header{
         top: 0;
         right: 0;
         left: 0;
-        z-index: 999999999;
+        z-index: 3;
         height: 120px;
         background-color: white;
         display: flex;
@@ -30,16 +30,14 @@ header{
                 }
             }
             .navbar-collapse{
-                display: flex;
-                justify-content: center;
-                ul{
+                background-color: white;
+                .navbar-nav{
                     
-                    li{
+                    .nav-item{
+                        height: 105px;
+                        display: flex;
+                        align-items: center;
                         .nav-link{
-                            display: flex;
-                            align-items: center;
-                            padding: 0;
-                            height: 105px;
                             font-weight: bold;
                             letter-spacing: 0.05px;
                             margin: 0 5px;
@@ -57,7 +55,9 @@ header{
             }
             form{
                 position: relative;
+                width: fit-content;
                 input{
+                    width: 150px;
                     border: none;
                     border-bottom: 3px solid #0282f9;
                     padding-right: 25px;
@@ -65,9 +65,41 @@ header{
                 i{
                     position: absolute;
                     right: 0;
-                    top: 40%;
+                    top: 50%;
                     transform: translateY(-50%);
                     color: gray;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:992px){
+    header{
+        .navbar{
+            .container{
+                .navbar-collapse{
+                    .navbar-nav{
+                        .nav-item{
+                            height: 40px;
+                        }
+                    }
+                }
+                form{
+                    position: relative;
+                    input{
+                        border: none;
+                        border-bottom: 3px solid #0282f9;
+                        padding-right: 25px;
+                    }
+                    i{
+                        position: absolute;
+                        right: 0;
+                        top: 40%;
+                        transform: translateY(-50%);
+                        color: gray;
+                    }
                 }
             }
         }

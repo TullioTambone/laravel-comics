@@ -8,7 +8,7 @@
                         <span class="dropdown-toggle ms-4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             ADDITIONAL DC SITES
                         </span>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu z-3">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -20,7 +20,7 @@
 
 
             <a class="navbar-brand" href="#">
-                <img src="/images/dc-logo.png" alt="">
+                <img src="{{ Vite::asset('resources/images/dc-logo.png') }}" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -65,7 +65,7 @@
                         </ul>
                     </li>
                 </ul>
-                <form action="" method="">
+                <form action="" method="" class="z-1">
                     <input type="text" placeholder="Search" class="text-end">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </form>
